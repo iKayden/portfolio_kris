@@ -11,10 +11,12 @@
   top: 0;
   z-index: 3;
   border-bottom: 3px solid gold;
+  white-space: nowrap;
+  background-color: rgb(30, 30, 30);
 }
 .navbar-logo {
-  width: 12rem;
-  height: 4rem;
+  width: 14rem;
+  height: 6rem;
   object-fit: cover;
 }
 
@@ -23,6 +25,7 @@
   cursor: pointer;
   font-size: x-large;
 }
+
 .navbar-menu__item:hover {
   color: darkgoldenrod;
   padding-bottom: 0.5rem;
@@ -39,6 +42,7 @@
   padding: 0 1rem;
   border-radius: 2rem;
   font-size: x-large;
+  cursor: pointer;
 }
 
 .navbar-contactButton__image {
@@ -46,4 +50,9 @@
   height: 1rem;
   width: 1rem;
   margin: 1rem;
+}
+
+@media screen and (max-width: 840px) {
+}
+@media screen and (max-width: 640px) {
 }

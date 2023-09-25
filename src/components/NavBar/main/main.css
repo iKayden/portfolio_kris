@@ -1,0 +1,91 @@
+#main {
+  height: calc(100vh - 8rem);
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.main-image {
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 100vh;
+
+  margin-top: 3rem;
+}
+
+.main-content {
+  height: 100vh;
+  width: 100vw;
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-intro__hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+.main-intro__name {
+  color: yellow;
+}
+
+.main-intro__paragraph {
+  font-size: medium;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.main-button_box {
+  display: flex;
+  justify-content: baseline;
+}
+.main-button {
+  background: white;
+  margin: 1rem 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  cursor: pointer;
+}
+
+.main-button__image {
+  object-fit: cover;
+  margin: 0 0.25rem;
+  height: 2rem;
+}
+
+@media screen and (max-width: 840px) {
+  .main-image {
+    right: -10vw;
+  }
+  .main-content {
+    font-size: 10vw;
+  }
+  .main-intro__hello {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .main-image {
+    right: -20vw;
+  }
+
+  .main-button {
+    font-size: medium;
+    white-space: nowrap;
+    margin: 1rem 0.2rem;
+  }
+}
