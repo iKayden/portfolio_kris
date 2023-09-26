@@ -35,7 +35,7 @@
 }
 
 .main-intro__name {
-  color: yellow;
+  color: gold;
 }
 
 .main-intro__paragraph {
@@ -64,7 +64,7 @@
 .main-button__image {
   object-fit: cover;
   margin: 0 0.25rem;
-  height: 2rem;
+  height: 1.5rem;
 }
 
 @media screen and (max-width: 840px) {

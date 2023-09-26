@@ -11,7 +11,7 @@
   top: 0;
   z-index: 3;
   border-bottom: 3px solid gold;
-  white-space: nowrap;
+  /* white-space: nowrap; */
   background-color: rgb(30, 30, 30);
 }
 .navbar-logo {
@@ -52,7 +52,7 @@
   margin: 1rem;
 }
 
-@media screen and (max-width: 840px) {
+/* @media screen and (max-width: 840px) {
 }
 @media screen and (max-width: 640px) {
-}
+} */

@@ -10,8 +10,8 @@ const Navbar = () => {
       <img src={logo} alt='logo' className='navbar-logo'></img>
       <div className='navbar-menu'>
         <Link className='navbar-menu__item'>Home</Link>
-        <Link className='navbar-menu__item'>Demo Reel</Link>
         <Link className='navbar-menu__item'>About</Link>
+        <Link className='navbar-menu__item'>Showreel</Link>
         <Link className='navbar-menu__item'>Portfolio</Link>
       </div>
 
