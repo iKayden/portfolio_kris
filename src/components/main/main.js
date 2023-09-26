@@ -1,9 +1,9 @@
 import React from 'react';
 import "./main.css";
-import mainImage from "../../../assets/imagek.png";
+import mainImage from "../../assets/imagek.png";
 import { Link } from 'react-scroll';
-import btnImg from "../../../assets/play.png";
-import downloadImg from "../../../assets/download.png";
+import btnImg from "../../assets/play.png";
+import downloadImg from "../../assets/download.png";
 
 const Main = () => {
   return (

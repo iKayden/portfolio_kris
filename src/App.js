@@ -1,6 +1,6 @@
-import About from "./components/NavBar/about/about";
-import Main from "./components/NavBar/main/main";
-import Navbar from "./components/NavBar/navbar";
+import About from "./components/about/about";
+import Main from "./components/main/main";
+import Navbar from "./components/navbar/navbar";
 import Portfolio from "./components/portfolio/portfolio";
 
 function App() {

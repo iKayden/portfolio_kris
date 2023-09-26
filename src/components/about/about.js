@@ -1,8 +1,8 @@
 import React from 'react';
 import "./about.css";
-import houdiniLogo from "../../../assets/houdini-logo.png";
-import mayaLogo from "../../../assets/maya-logo.png";
-import adobeProLogo from "../../../assets/adobePro-logo.png";
+import houdiniLogo from "../../assets/houdini-logo.png";
+import mayaLogo from "../../assets/maya-logo.png";
+import adobeProLogo from "../../assets/adobePro-logo.png";
 
 const About = () => {
   return (
