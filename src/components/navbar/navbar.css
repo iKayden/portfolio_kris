@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   z-index: 3;
-  border-bottom: 3px solid gold;
+  /* border-bottom: 3px solid gold; */
   /* white-space: nowrap; */
   background-color: rgb(30, 30, 30);
 }
