@@ -11,8 +11,9 @@
   top: 0;
   z-index: 3;
   /* border-bottom: 3px solid gold; */
-  /* white-space: nowrap; */
+  white-space: nowrap;
   background-color: rgb(30, 30, 30);
+  overflow: hidden;
 }
 .navbar-logo {
   width: 14rem;
@@ -27,9 +28,9 @@
 }
 
 .navbar-menu__item:hover {
-  color: darkgoldenrod;
+  color: yellow;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid darkgoldenrod;
+  border-bottom: 3px solid yellow;
 }
 
 .navbar-contactButton {
@@ -52,6 +53,39 @@
   margin: 1rem;
 }
 
+.active {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+
+.navbar-burger {
+  display: none;
+  object-fit: cover;
+  height: 2rem;
+}
+
+.navbar-menu__burger {
+  position: absolute;
+  top: 6rem;
+  right: 2rem;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  height: fit-content;
+  min-width: 15rem;
+  background: rgb(40, 40, 40);
+  border-radius: 1rem;
+}
+
+.navbar-menu__burger-item {
+  color: white;
+  padding: 0.5rem 3rem;
+  margin: 0.25rem;
+  background: rgb(30, 30, 30);
+  border-radius: 1rem;
+}
 /* @media screen and (max-width: 840px) {
 }
 @media screen and (max-width: 640px) {
