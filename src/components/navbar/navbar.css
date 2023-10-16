@@ -86,7 +86,18 @@
   background: rgb(30, 30, 30);
   border-radius: 1rem;
 }
-/* @media screen and (max-width: 840px) {
+
+@media screen and (max-width: 720px) {
+  .navbar-burger {
+    display: flex;
+  }
+  .navbar-menu {
+    display: none;
+  }
+  .navbar-contactButton {
+    display: none;
+  }
+  .navbar {
+    overflow: visible;
+  }
 }
-@media screen and (max-width: 640px) {
-} */

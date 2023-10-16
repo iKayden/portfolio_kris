@@ -7,9 +7,9 @@ import menu from "../../assets/menu.png";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
+  // const toggleMenu = () => {
+  //   setShowMenu(!showMenu);
+  // };
   return (
     <nav className='navbar'>
       <img src={logo} alt='logo' className='navbar-logo'></img>
